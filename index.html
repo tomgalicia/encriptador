@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/Frame 6.png" alt="logo de alura">
+    </header>
+    <main>
+        <section class="seccion_1">
+            <textarea class="areatexto" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion">
+                    <img class="exclamacion" src="imagenes/exc-circle-fill.svg" 
+                    width="16px" height="16px"  alt="círculo de exclamación">
+                    Solo letras minúsculas y sin acento
+                </h6>
+            </div>
+            <div class="botones"> 
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="seccion_2">
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+           <div>
+                <button class="btn-copiar" onclick="btnCopiarMensaje()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">&copy Alura - Tomás Galicia - 2023</p>        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
