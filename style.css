@@ -26,22 +26,7 @@ main{
    display: flex;
    width: 100%;
    height: 640px;
-   justify-content: space-between;
 }
-
-section{
-   height: 100%;
-}
-
-.seccion_1{
-   width: 50%;
-}
-
-.seccion_2{
-   width: 50%;
-   background-color: white;
-}
-
 
 .areatexto{
    border: none; 
@@ -134,8 +119,8 @@ section{
 }
 
 @media screen and (max-width:480px) {
-      .text-area,.mensaje{
-         width: auto;
+      .areatexto,.mensaje,.informacion,.copyright,.btn-copiar,.btn-encriptar,.btn-desencriptar{
+         width: 240px;
       }
    
 }
